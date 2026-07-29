@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+.calculator {
+    width: 340px;
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
+}
+#display {
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    background: #ffffff;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    background: #374151;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background: #4b5563;
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+button:active{
+    transform:scale(0.95);
+}
+.operator {
+    background: #f59e0b;
+}
+
+.operator:hover {
+      background: #d97706;
+}
+.ac{
+    background: #ef4444;
+    color: white;
+}
+
+.ac:hover{
+    background: #dc2626;
+}
+
+.del{
+    background: #8b5cf6;
+    color: white;
+}
+
+.del:hover{
+    background: #7c3aed;
+}
+.equal {
+    background: #22c55e;
+}
+
+.equal:hover {
+    background: #15803d;
+}
+.footer{
+    color:#ccc;
+    text-align:center;
+    margin-top:20px;
+    font-size:14px;
+}
+@media (max-width: 480px) {
+
+    .calculator{
+        width: 90%;
+        padding: 15px;
+    }
+
+    #display{
+        height: 60px;
+        font-size: 26px;
+    }
+
+    button{
+        height: 55px;
+        font-size: 20px;
+    }
+
+}
