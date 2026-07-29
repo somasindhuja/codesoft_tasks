@@ -71,6 +71,20 @@ A simple and responsive calculator capable of performing basic arithmetic operat
 
 ---
 
+
+# 🚀 Live Demos
+
+### 💼 Portfolio
+🔗 https://somasindhuja.github.io/codesoft_tasks/portfolio/
+
+### 🍽️ Landing Page
+🔗 https://somasindhuja.github.io/codesoft_tasks/landing_page/
+
+### 🧮 Calculator
+🔗 https://somasindhuja.github.io/codesoft_tasks/calculator/
+
+---
+
 ## 👩‍💻 Author
 
 **Sindhuja Soma**
