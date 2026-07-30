@@ -7,7 +7,7 @@ A modern and responsive **Restaurant Landing Page** built using **HTML** and **C
 ## 📸 Preview
 
 <p align="center">
-  <img src="assets/images/landing-page-preview.png" alt="Restaurant Landing Page Preview" width="100%">
+  <img src="assets/images/preview.png" alt="Restaurant Landing Page Preview" width="100%">
 </p>
 
 ---
