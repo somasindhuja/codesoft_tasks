@@ -5,7 +5,7 @@
 A modern and responsive **Calculator** built using **HTML5**, **CSS3**, and **JavaScript**. This project performs basic arithmetic operations with a clean user interface and interactive functionality.
 
 <p>
-  <a href="https://somasindhuja.github.io/calculator/">
+  <a href="https://somasindhuja.github.io/codesoft_tasks/calculator/">
     <strong>🌐 Live Demo</strong>
   </a>
 </p>
