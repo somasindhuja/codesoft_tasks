@@ -10,17 +10,23 @@ buttons.forEach((button) => {
             display.value = display.value.slice(0, -1);
         }
         else if (value === "=") {
-            if (display.value === "") return;
-            try {
-                display.value = eval(display.value);
-            }
-            catch {
-                display.value = "Error";
-                setTimeout(() => {
-                    display.value = "";
-                }, 1000);
-            }
-        }
+    if (display.value === "") return;
+
+    try {
+        let expression = display.value;
+
+        // Convert percentage to decimal
+        expression = expression.replace(/(\d+(\.\d+)?)%/g, "($1/100)");
+
+        display.value = eval(expression);
+    }
+    catch {
+        display.value = "Error";
+        setTimeout(() => {
+            display.value = "";
+        }, 1000);
+    }
+}
         else {
             // Convert symbols to JavaScript operators
             if (value === "×") value = "*";
